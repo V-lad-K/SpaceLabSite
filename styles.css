@@ -1044,27 +1044,32 @@ img {
     }
 
     .brands{
-        height: 1026px;
+        /*height: 1026px;*/
+        height: 926px;
     }
 
     .brands-main{
+        width: 60%;
         display: flex;
         height: 370px;
     }
 
     .brand-fine-jewelry, .brand-rolex, .brand-breguet, .brand-haven{
-        height: 185px;
+        /*height: 185px;*/
+        height: 145px;
         width: 75.5%;
+        margin-bottom: 25px;
     }
 
     .fifth-line-main-text{
-        font-size: 10px;
+        width: 70%;
+        font-size: 13px;
     }
 
     .fifth-line-text-box{
         height: 47px;
         width: 228px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .sixth-line-header{
@@ -1077,12 +1082,12 @@ img {
 
     .articles-first-line-box-text{
         height: 86px;
-        width: 48%;
-        font-size: 11px;
+        /*width: 48%;*/
+        font-size: 13px;
     }
 
     .articles-first-line-box-end{
-        width: 48%;
+        width: 68%;
     }
 
     .articles-first-line-box-end-first{
@@ -1143,7 +1148,7 @@ img {
     }
 
     .fifth-line-main-text{
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .fifth-line-text-box{
@@ -1157,9 +1162,12 @@ img {
     }
 
     .articles-first-line-box-text{
-        height: 76px;
-        width: 48%;
-        font-size: 8px;
+        /*height: 76px;*/
+        width: 88%;
+    }
+
+    .articles-first-line-box-end{
+        width: 88%;
     }
 
     .articles-first-line-box-end-first{
