@@ -1,0 +1,1304 @@
+body{
+    margin: 0;
+}
+
+img {
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.top-line{
+    display: flex;
+    height: 44px;
+    width: 100%;
+    background-color: #000;
+    justify-content: center;
+}
+
+.top-line-inner, .second-line-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+}
+
+.top-line-inner-one, .top-line-inner-two{
+    display: flex;
+    align-items: center;
+}
+
+.top-line-svg-phone{
+    margin-right: 15px;
+}
+
+.top-line-svg-phone, .top-line-svg-exit{
+    height: 16px;
+    width: 16px;
+}
+
+.svg-phone, .svg-exit, .svg-shop, .svg-search, .first-screen-img, .new-collection-img, .clock,
+.fifth-line-photo-img, .image1, .fine-jewelry, .rolex, .breguet, .haven, .footer-img{
+    width: 100%;
+    height: 100%;
+}
+
+.top-line-text, .top-line-exit-registration{
+    color: #969696;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    font-family: PT Sans;
+    display: flex;
+    align-items: center;
+}
+
+.top-line-svg-exit{
+    margin-right: 19px;
+}
+
+.second-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #0F0F0F;
+}
+
+.second-line-inner{
+    height: 80px;
+}
+
+.second-line-inner-one{
+    display: flex;
+    align-items: center;
+}
+
+.second-line-inner-two{
+    display: flex;
+    align-items: center;
+}
+
+.second-line-logo-name{
+    color: #FFF;
+    font-family: Post No Bills Jaffna;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 17%;
+}
+
+.second-line-like{
+    width: 133px;
+    height: 100%;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-line-like-text, .second-line-personal-office, .second-line-settings{
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.second-line-like-text{
+    color: #FFF;
+}
+
+.second-line-personal-office, .second-line-settings{
+    color: #969696;
+}
+
+.second-line-settings{
+    margin-right: 32px;
+}
+
+.second-line-like{
+    margin-right: 17px;
+}
+
+.second-line-personal-office{
+    margin-right: 29px;
+}
+
+.second-line-svg-shop, .second-line-svg-search{
+    width: 22px;
+    height: 22px;
+}
+
+.second-line-svg-shop{
+    margin-right: 40px;
+}
+
+.first-screen{
+    width: 100%;
+    height: 810px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    flex-direction: column;
+}
+
+.first-screen-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFF;
+    margin-top: 160px;
+}
+
+.first-screen-logo-name{
+    color: #FFF;
+    text-align: center;
+    font-family: Post No Bills Jaffna;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.first-screen-logo-destination{
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    /*margin-top: 7px;*/
+}
+
+.first-screen-logo-text{
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 16px;
+    /*font-size: 1.1339475549255846vw;*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-transform: uppercase;
+    margin-top: 560px;
+    width: 40%;
+    position: absolute;
+}
+
+.fourth-line{
+    display: flex;
+    flex-direction: row;
+    height: 730px;
+    width: 100%;
+    background-color: #000;
+}
+
+.new-season{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    color: #FFFFFF;
+}
+
+.new-season-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.new-season-line{
+    width: 120px;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: 50px;
+}
+
+.new-season-clocks{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 405px;
+    margin-top: 50px;
+}
+
+.new-season-clocks-clock{
+    height: 405px;
+    width: 30%;
+}
+
+.new-season-clocks-clock-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    width: 100%;
+    background-color: #191B1C;
+}
+
+.new-season-clocks-clock-header-img{
+    height: 264px;
+    width: 85%;
+}
+
+.new-season-clocks-name{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 18px;
+    /*font-size:  1.171875vw;*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.new-season-clocks-price{
+    color: #D0D0D0;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.new-collection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+}
+
+.new-collection-text{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 484px;
+}
+
+.new-collection-line{
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    margin-top: 553px;
+    background-color: #FFF;
+}
+
+.new-collection-catalog{
+    width: 138px;
+    height: 28px;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    margin-top: 595px;
+}
+
+.fifth-line{
+    display: flex;
+    height: 600px;
+    width: 100%;
+}
+
+.fifth-line-photo{
+    height: 600px;
+    width: 50%;
+}
+
+.fifth-line-text{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 50%;
+    background-color: #000;
+}
+
+.fifth-line-text-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.fifth-line-text-line{
+    width: 120px;
+    height: 1px;
+    background-color: #FFF;
+    position: absolute;
+    margin-top: 179px;
+}
+
+.fifth-line-main-text{
+    width: 38%;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: absolute;
+    margin-top: 219px;
+}
+
+.fifth-line-text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    width: 298px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 455px;
+    border: 1px solid #FFF;
+}
+
+.sixth-line{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1289px;
+    width: 100%;
+    background-color: #000;
+}
+
+.sixth-line-header{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+.sixth-line-line{
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    margin-top: 208px;
+    background-color: #FFF;
+}
+
+.sixth-line-clocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    width: 58%;
+    height: 850px;
+    margin-top: 289px;
+}
+
+.sixth-line-clocks-clock{
+    height: 405px;
+    /*width: 23.5%;*/
+    /*width: 50%;*/
+    flex: 1 0 calc(25% - 20px);
+    margin: 5px;
+}
+
+.sixth-line-clocks-clock-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    background-color: #191B1C;
+}
+
+.sixth-line-clocks-clock-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 264px;
+    width: 83%;
+}
+
+.sixth-line-clocks-clock-name{
+    color:#FFF;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.sixth-line-clocks-clock-price{
+    color: #D0D0D0;
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.articles{
+    display: flex;
+    flex-direction: column;
+    height: 1582px;
+    width: 100%;
+    background-color: #0F0F0F;
+}
+
+.articles-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 63px;
+}
+
+.articles-line{
+    width: 120px;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articles-first-line{
+    display: flex;
+    height: 437px;
+    margin-top: 57px;
+}
+
+.articles-first-line-img{
+    width: 52%;
+}
+
+.articles-first-line-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+
+.articles-first-line-box-title{
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-top: 53px;
+}
+
+.articles-first-line-box-text{
+    height: 86px;
+    width: 68%;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 14px;
+}
+
+.articles-first-line-box-end{
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin-top: 39px;
+}
+
+.articles-first-line-box-end-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    color: #FFF;
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+}
+
+.articles-first-line-box-end-second{
+    display: flex;
+    align-items: end;
+    color: #FFF;
+    /*text-align: right;*/
+    text-align: end;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.articles-second-line, .articles-thirst-line{
+    display: flex;
+    height: 437px;
+    margin-top: 30px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 541px;
+    width: 100%;
+    background-color: #0F0F0F;
+}
+
+.brands-header{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.brands-line{
+    width: 120px;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brands-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 185px;
+    width: 85%;
+    margin-top: 66px;
+}
+
+.brand-fine-jewelry{
+    height: 100%;
+    width: 22.7%;
+    margin-right: 30px;
+}
+
+.brand-rolex{
+    height: 100%;
+    width: 17.1%;
+    margin-right: 30px;
+}
+
+.brand-breguet{
+    height: 100%;
+    width: 16.6%;
+    margin-right: 30px;
+}
+
+.brand-haven{
+    height: 100%;
+    width: 23.1%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+}
+
+.footer-inners{
+    position: absolute;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+}
+
+.footer-inners-company, .footer-inners-category, .footer-inners-mailing{
+    height: 300px;
+    width: 31.5%;
+}
+
+.footer-inners-company-header, .footer-inners-category-header, .footer-inners-mailing-header{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-inners-company-text{
+    width: 100%;
+    height: 231px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 0.7614583333333334vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 40px;
+}
+
+.footer-inners-boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-inners-boxes-first-line{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-inners-category-clocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: #D0D0D0;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 10px;
+    background-color: #0F0F0F;
+}
+
+.footer-inners-category-cufflinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 51px;*/
+    width: 26%;
+    color: #D0D0D0;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 10px;
+    background-color: #0F0F0F;
+}
+
+.footer-inners-category-belts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    color: #D0D0D0;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 10px;
+    background-color: #0F0F0F;
+}
+
+.footer-inners-boxes-second-line{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-inners-category-jewelry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: #D0D0D0;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 10px;
+    background-color: #0F0F0F;
+}
+
+.footer-inners-category-order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37%;
+    color: #D0D0D0;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 10px;
+    background-color: #0F0F0F;
+}
+
+.footer-inners-boxes-thirst-line{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-inners-category-bracelets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    color: #D0D0D0;
+    font-family: PT Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 5px 10px;
+    background-color: #0F0F0F;
+}
+
+.footer-inners-mailing-text{
+    width: 100%;
+    height: 84px;
+    color: #FFF;
+    font-family: PT Sans;
+    font-size: 0.6314583333333334vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 40px;
+}
+
+.footer-inners-mailing-end{
+    height: 42px;
+    display: flex;
+}
+
+.mail-input{
+    align-items: center;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0.40);
+    color: #FFFFFF;
+    width: 60%;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: 13px;
+    background-color: #0F0F0F;
+    color: #FFF;
+}
+
+.last-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 1);
+}
+
+.last-line-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+}
+
+.last-line-first{
+    display: flex;
+    justify-content: start;
+    color:#D0D0D0;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.last-line-second{
+    display: flex;
+    color: #D0D0D0;
+    text-align: right;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.blur-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 24px;
+    padding: 12px 28px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 850px) {
+    .second-line, .second-line-inner{
+        height: 50px;
+    }
+
+    .second-line-inner, .top-line-inner{
+        width: 95%;
+    }
+
+    .first-screen{
+        height: 560px;
+    }
+
+    .first-screen-logo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .first-screen-logo-name{
+        font-size: 40px;
+    }
+
+    .first-screen-logo-destination{
+        font-size: 15px;
+    }
+
+    .first-screen-logo-text{
+        margin-top: 440px;
+    }
+
+    .new-season-clocks-clock{
+        height: 405px;
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .new-season{
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    .new-season-clocks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-screen-logo-text{
+        font-size: 9px;
+    }
+
+    .new-collection-text, .fifth-line-text-header{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .second-line-inner, .top-line-inner{
+        width: 100%;
+    }
+
+    .second-line-like{
+        width: 100px;
+    }
+
+    .second-line-personal-office{
+        font-size: 8px;
+    }
+
+    .first-screen-logo-text{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .fourth-line{
+        display: flex;
+        flex-direction: column;
+        height: 1460px;
+    }
+
+    .fifth-line{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .new-season{
+        width: 100%;
+        height: 730px;
+    }
+
+    .new-collection{
+        width: 100%;
+        height: 730px;
+    }
+
+    .fifth-line-photo, .fifth-line-text{
+        width: 100%;
+        height: 600px;
+    }
+
+    .sixth-line-clocks-clock{
+        flex: 1 0 calc(50% - 20px);
+    }
+
+    .sixth-line{
+        height: 2099px;
+    }
+
+    .articles-first-line, .articles-second-line, .articles-thirst-line{
+        display: flex;
+        flex-direction: column;
+        height: 704px;
+    }
+
+    .articles-first-line-img{
+        height: 437px;
+        width: 100%;
+    }
+
+    .articles-first-line-box{
+        height: 337px;
+        width: 100%;
+    }
+
+    .articles{
+        height: 2413px;
+    }
+
+    .brands{
+        height: 1026px;
+    }
+
+    .brands-main{
+        display: flex;
+        height: 370px;
+    }
+
+    .brand-fine-jewelry, .brand-rolex, .brand-breguet, .brand-haven{
+        height: 185px;
+        width: 75.5%;
+    }
+
+    .fifth-line-main-text{
+        font-size: 10px;
+    }
+
+    .fifth-line-text-box{
+        height: 47px;
+        width: 228px;
+        font-size: 12px;
+    }
+
+    .sixth-line-header{
+        font-size: 26px;
+    }
+
+    .articles-header{
+        font-size: 26px;
+    }
+
+    .articles-first-line-box-text{
+        height: 86px;
+        width: 48%;
+        font-size: 11px;
+    }
+
+    .articles-first-line-box-end{
+        width: 48%;
+    }
+
+    .articles-first-line-box-end-first{
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .articles-first-line-box-end-second{
+        font-size: 14px;
+    }
+
+    .footer-inners-company-header, .footer-inners-category-header, .footer-inners-mailing-header{
+        font-size: 18px;
+    }
+
+    .footer-inners-company-text{
+        font-size: 10px;
+    }
+
+    .subscribe{
+        font-size: 10px;
+    }
+
+    .footer-inners-boxes-first-line div, .footer-inners-boxes-second-line div,
+    .footer-inners-boxes-thirst-line div {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .fourth-line{
+        display: flex;
+        flex-direction: column;
+        height: 2260px;
+    }
+
+    .new-season{
+        margin-top: 60px;
+        height: 1540px;
+    }
+
+    .new-season-clocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-season-clocks-clock{
+        height: 500px;
+    }
+
+    .new-season-clocks-name{
+        font-size: 30px;
+    }
+
+    .new-season-clocks-price{
+        font-size: 28px;
+    }
+
+    .fifth-line-main-text{
+        font-size: 8px;
+    }
+
+    .fifth-line-text-box{
+        height: 40px;
+        width: 178px;
+        font-size: 10px;
+    }
+
+    .articles-header{
+        font-size: 18px;
+    }
+
+    .articles-first-line-box-text{
+        height: 76px;
+        width: 48%;
+        font-size: 8px;
+    }
+
+    .articles-first-line-box-end-first{
+        padding: 10px 25px;
+        font-size: 10px;
+    }
+
+    .articles-first-line-box-end-second{
+        font-size: 7px;
+    }
+
+    .articles{
+        height: 1993px;
+    }
+
+    .articles-first-line, .articles-second-line, .articles-thirst-line{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .footer-inners-company-header, .footer-inners-category-header, .footer-inners-mailing-header{
+        font-size: 12px;
+    }
+
+    .footer-inners-company-text{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .second-line-inner, .top-line-inner{
+        width: 80%;
+    }
+
+    .second-line-like-text, .second-line-personal-office, .second-line-settings{
+        font-size: 11px;
+    }
+
+    .first-screen-logo{
+        width: 240px;
+        height: 240px;
+    }
+
+    .first-screen-logo-text{
+        font-size: 12px;
+    }
+    .footer-inners-company-text{
+        font-size: 10px;
+    }
+
+    .subscribe{
+        font-size: 8px;
+    }
+
+    .footer-inners-company-text, .footer-inners-mailing-text{
+        font-size: 9px;
+    }
+
+    .last-line-inner{
+        width: 88%;
+    }
+}
+
+@media screen  and (max-width: 1000px){
+    .articles{
+        height: 2310px;
+    }
+
+    .articles-first-line, .articles-second-line, .articles-thirst-line{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .articles-first-line-box-title{
+        font-size: 15px;
+    }
+
+    .footer-inners-company-text, .footer-inners-mailing-text{
+        font-size: 12px;
+    }
+
+    .footer-inners{
+        width:  100%;
+    }
+
+    .footer-inners-mailing-end{
+        margin-top: 20px;
+    }
+
+    .subscribe{
+        font-size: 12px;
+    }
+}
+
+@media screen  and (max-width: 860px){
+    .footer-inners-company-text, .footer-inners-mailing-text{
+        font-size: 9px;
+    }
+
+    .subscribe{
+        font-size: 8px;
+    }
+
+    .footer-inners-boxes-first-line div, .footer-inners-boxes-second-line div,
+    .footer-inners-boxes-thirst-line div {
+        font-size: 8px;
+    }
+
+    .top-line-text, .top-line-exit-registration{
+        font-size: 10px;
+    }
+
+    .second-line-like-text, .second-line-personal-office, .second-line-settings{
+        font-size: 9px;
+    }
+
+    .first-screen-logo-text{
+
+        font-size: 9px;
+    }
+
+    .blur-box{
+        height: 24px;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen  and (max-width: 715px){
+    .second-line-like-text, .second-line-personal-office, .second-line-settings{
+        font-size: 7px;
+    }
+
+    .blur-box{
+        height: 24px;
+        padding: 6px 15px;
+        font-size: 8px;
+    }
+}
+
